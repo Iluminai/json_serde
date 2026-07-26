@@ -23,7 +23,7 @@ defmodule JsonSerde.MixProject do
   defp deps do
     [
       {:jason, "~> 1.3"},
-      {:decimal, "~> 2.0", runtime: false},
+      {:decimal, "~> 3.0", runtime: false},
       {:brex_result, "~> 0.4.0"},
       {:ex_doc, "~> 0.28", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
